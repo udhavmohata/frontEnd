@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mappingUI.css">
+		</head>
+		<title>Mapping UI </title>
+	<body>
+		<h1>Mapping JSON</h1>
+		<div class="row">
+  			<div class="column" style="background-color:#aaa;">
+			<h2>Upload JSON file Here</h2>
+			<hr>
+			<!-- <input type="file" id="myFile" name="filename"> -->
+			<p>Upload the File: <br> <input style="height:200px;"id="myFile" size="40" type="text" /></p>
+			<button type="button" id="submit">Submit</button>
+			<p id="demo"></p>
+  			</div>
+  			<div class="column" style="background-color:#bbb;">
+			<h2>Edit Values</h2>
+			<div id="container"></div>
+			<hr>
+			<div id="finalcontainer"></div>
+			<button type="button" id="convert">convert</button>
+  		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="mappingUI.js"></script>
+	</body>
+
+</html>
